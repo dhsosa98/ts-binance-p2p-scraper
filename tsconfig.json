@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "target": "es6",
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

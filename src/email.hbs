@@ -1,0 +1,32 @@
+<style>
+  .header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+  .header-img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+</style>
+
+<div class="header">
+    <img class="header-img" src="cid:{{cid}}" width="150px" height="150px" />
+    <div>
+        <h1>{{title}}</h1>
+        <p>{{message}}</p>
+    </div>
+</div>
+
+<p>Fecha y Hora: {{date}}</p>
+
+<p>Primeros {{firstResults.length}} resultados:</p>
+
+{{#each firstResults}}
+  <h5>{{this}}</h5>
+{{/each}}
+
+<p>Para ver el resto de los resultados, ingresa a la página de Binance P2P
+  {{url}}</p>
